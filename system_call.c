@@ -12,10 +12,12 @@
 #include <stdio.h>
 
 /**
+ * Un programme qui affiche 4 messages un apres l'autre
+ * Le premier texte est affiche au depart
+ * Le deuxieme texte est affiche apres 10 seconde 
+ * Le troisieme texte est affiche apres 5 secondes 
+ * Le dernier message est pour mentionne que le programme est termine 
  * 
- *
- *
- *
  * @return     0 
  */
 int main() {
