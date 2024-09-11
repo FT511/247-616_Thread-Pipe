@@ -24,7 +24,6 @@ void codeDuProcessusParent(void)
     
     processusPereOuFils = "Processus Père";
     sleep(1);
-    wait(NULL);
     printf("Je suis %s\n", processusPereOuFils);    
 }
 
@@ -54,6 +53,7 @@ int main()
     if(pid != 0)
     {
         codeDuProcessusParent();
+        wait(NULL);
     }
     
     return 0;
